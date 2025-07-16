@@ -6,8 +6,92 @@
 	box-sizing: border-box;
 }
 
+:root {
+	--dark1: #131313;
+	--dark2: #424242;
+	--dark3: #727272;
+	--dark4: #a1a1a1;
+}
+
 body {
 	font-family: "Work Sans", sans-serif;
 	font-size: 16px;
 	font-weight: 400;
+}
+
+.container {
+	max-width: 1150px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.flex {
+	display: flex;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.btn-primary {
+	padding: 20px 25px;
+	border-radius: 8px;
+	background: #ff900e;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	border: none;
+	cursor: pointer;
+}
+
+/*===========================
+HEADER AREA CSS HERE
+=============================*/
+.header-area {
+	background: rgba(255, 144, 14, 0.1);
+	padding-top: 50px;
+	padding-bottom: 45px;
+}
+
+.navbar-area {
+	justify-content: space-between;
+}
+
+.navbar-area ul {
+	list-style: none;
+	gap: 30px;
+}
+
+.navbar-area ul li a {
+	color: var(--dark2);
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 144.444%;
+	text-decoration: none;
+}
+
+.hero-description {
+	max-width: 862px;
+	margin: auto;
+	padding-top: 102px;
+	text-align: center;
+}
+
+.hero-description h1 {
+	color: var(--dark1);
+	font-size: 64px;
+	font-weight: 700;
+}
+
+.hero-description p {
+	color: var(--dark3);
+	line-height: 162.5%;
+	margin-top: 25px;
+	margin-bottom: 32px;
+}
+
+.hero-area img {
+	width: 100%;
+	margin-top: 50px;
 }

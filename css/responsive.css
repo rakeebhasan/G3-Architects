@@ -1,6 +1,64 @@
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+	.container {
+		max-width: 960px;
+	}
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
+	.container {
+		max-width: 720px;
+	}
+	.header-area {
+		padding-top: 30px;
+		padding-bottom: 35px;
+	}
+	.navbar-area a img {
+		width: 250px;
+	}
+	.hero-description {
+		padding-top: 50px;
+	}
+	.hero-description p {
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	.hero-area img {
+		margin-top: 30px;
+	}
 }
 @media screen and (max-width: 767px) {
+	.header-area {
+		padding-top: 20px;
+		padding-bottom: 35px;
+	}
+	.navbar-area {
+		flex-direction: column;
+		gap: 15px;
+	}
+	.navbar-area a img {
+		width: 200px;
+	}
+	.navbar-area ul {
+		gap: 20px;
+	}
+	.hero-description h1 {
+		font-size: 32px;
+	}
+	.btn-primary {
+		font-size: 18px;
+		padding: 15px 25px;
+	}
+	.hero-description {
+		padding-top: 15px;
+	}
+	.hero-description p {
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+	.hero-area img {
+		margin-top: 30px;
+	}
+	.hero-area {
+		display: flex;
+		flex-direction: column-reverse;
+	}
 }
