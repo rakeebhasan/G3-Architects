@@ -148,3 +148,94 @@ FEATURES AREA CSS HERE
 	color: var(--dark3);
 	line-height: 162.5%;
 }
+
+/*===========================
+LOVE AND ENJOY AREA CSS HERE
+=============================*/
+.love-enjoy-area {
+	padding-bottom: 168px;
+}
+
+.love-enjoy-wrpper {
+	justify-content: space-between;
+}
+
+.love-enjoy-desc {
+	width: 40%;
+}
+
+.love-enjoy-img {
+	width: 50%;
+}
+
+.love-enjoy-wrpper {
+	position: relative;
+}
+
+.love-enjoy-img .btn-position img {
+	width: 100%;
+}
+
+.love-enjoy-img .btn-position {
+	position: sticky;
+	top: 0;
+}
+
+.title-short-desc h2 {
+	color: var(--dark1);
+	font-size: 45px;
+	font-weight: 700;
+	padding-left: 21px;
+	border-left: 5px solid #ff900e;
+}
+
+.title-short-desc p {
+	color: var(--dark3);
+	line-height: 162.5%;
+	margin-top: 24px;
+	margin-bottom: 30px;
+}
+
+.feature-cards {
+	flex-direction: column;
+	row-gap: 20px;
+}
+
+.feature-card {
+	padding: 30px;
+	border-radius: 8px;
+	background: #fff;
+	box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.feature-card h3 {
+	color: var(--dark1);
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.feature-card p {
+	color: var(--dark3);
+	line-height: 162.5%;
+}
+
+.btn-position {
+	position: relative;
+}
+
+.love-enjoy-img button {
+	color: #fff;
+	font-size: 25px;
+	font-weight: 500;
+	position: absolute;
+	z-index: 2;
+	left: -75px;
+	bottom: -45px;
+}
+
+.love-enjoy-img button span {
+	font-size: 65px;
+	font-weight: 700;
+	line-height: 107.692%;
+}
