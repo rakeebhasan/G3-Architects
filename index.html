@@ -221,7 +221,21 @@
 		<!-- MAIN AREA END -->
 
 		<!-- FOOTER AREA START -->
-		<footer></footer>
+		<footer>
+			<div class="container">
+				<div class="footer-wrpper">
+					All rights reserved copyright@<span id="year">2023</span>
+					startup landing page design
+				</div>
+			</div>
+		</footer>
 		<!-- FOOTER AREA END -->
+
+		<!-- Footer Year Controler -->
+		<script>
+			const findMethod = new Date();
+			const fullYear = findMethod.getFullYear();
+			document.getElementById("year").innerText = fullYear;
+		</script>
 	</body>
 </html>
