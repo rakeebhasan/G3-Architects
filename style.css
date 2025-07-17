@@ -95,3 +95,56 @@ HEADER AREA CSS HERE
 	width: 100%;
 	margin-top: 50px;
 }
+
+/*===========================
+FEATURES AREA CSS HERE
+=============================*/
+.feature-area {
+	padding-top: 85px;
+	padding-bottom: 130px;
+}
+
+.feature-wrpper {
+	padding: 0 61px;
+	gap: 76px;
+}
+
+.feature-images {
+	width: 60%;
+}
+
+.feature-desc {
+	width: 40%;
+}
+
+.feature-images {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 24px;
+}
+
+.feature-images img {
+	width: 100%;
+}
+
+.feature-desc h2 {
+	color: var(--dark1);
+	font-size: 45px;
+	font-weight: 700;
+}
+
+.feature-desc h2 span:first-child {
+	color: var(--dark3);
+	font-weight: 500;
+}
+
+.feature-desc h2 span:last-child {
+	color: #ff900e;
+}
+
+.feature-desc p {
+	margin-top: 24px;
+	margin-bottom: 32px;
+	color: var(--dark3);
+	line-height: 162.5%;
+}

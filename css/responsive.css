@@ -1,8 +1,23 @@
+/* Large Screen Responsive Code */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 	.container {
 		max-width: 960px;
 	}
+
+	.feature-wrpper {
+		padding: 0px 10px;
+		gap: 35px;
+	}
+	.feature-desc h2 {
+		font-size: 38px;
+	}
+	.feature-desc p {
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
 }
+
+/* Medium Screen Responsive Code */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 	.container {
 		max-width: 720px;
@@ -24,7 +39,28 @@
 	.hero-area img {
 		margin-top: 30px;
 	}
+
+	.feature-area {
+		padding: 65px 0;
+	}
+	.feature-wrpper {
+		padding: 0px 10px;
+		gap: 35px;
+	}
+	.feature-desc h2 {
+		font-size: 32px;
+	}
+	.feature-desc p {
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
+	.feature-images,
+	.feature-desc {
+		width: 50%;
+	}
 }
+
+/* Small Screen Responsive Code */
 @media screen and (max-width: 767px) {
 	.header-area {
 		padding-top: 20px;
@@ -60,5 +96,29 @@
 	.hero-area {
 		display: flex;
 		flex-direction: column-reverse;
+	}
+
+	.feature-area {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.feature-wrpper {
+		padding: 0 0px;
+		gap: 20px;
+		flex-direction: column;
+	}
+	.feature-images,
+	.feature-desc {
+		width: 100%;
+	}
+	.feature-images {
+		gap: 10px;
+	}
+	.feature-desc h2 {
+		font-size: 38px;
+	}
+	.feature-desc p {
+		margin-top: 5px;
+		margin-bottom: 15px;
 	}
 }
