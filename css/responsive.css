@@ -232,4 +232,11 @@
 	.some-facts-area {
 		padding-bottom: 35px;
 	}
+
+	.our-sponsor-wrpper p {
+		margin-bottom: 30px;
+	}
+	.our-sponsor-area {
+		padding-bottom: 30px;
+	}
 }

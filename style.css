@@ -290,3 +290,40 @@ SOME FACTS AREA CSS HERE
 	font-size: 20px;
 	font-weight: 600;
 }
+
+/*===========================
+OUR SPONSOR AREA CSS HERE
+=============================*/
+.our-sponsor-area {
+	padding-bottom: 130px;
+}
+
+.our-sponsor-wrpper h2 {
+	color: var(--dark1);
+	font-size: 45px;
+	font-weight: 700;
+	margin-bottom: 24px;
+	text-align: center;
+}
+
+.our-sponsor-wrpper p {
+	max-width: 542px;
+	margin: auto;
+	text-align: center;
+	color: var(--dark3);
+	line-height: 162.5%;
+	margin-bottom: 50px;
+}
+
+.sponsors {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 20px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sponsors img {
+	width: 155px;
+	filter: grayscale(100%);
+}
